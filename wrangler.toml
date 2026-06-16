@@ -1,0 +1,11 @@
+name = "tempo"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[vars]
+# Set GROQ_API_KEY via Cloudflare Pages dashboard → Settings → Environment Variables
+# Do NOT hardcode secrets here.
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.js"]
